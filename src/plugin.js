@@ -116,6 +116,10 @@ function mildPropChainParsing(node, lookFor) {
 }
 
 function findDictionaryMatchingChain(propChain, dictionaries) {
+    if (propChain[0].name === null ) {
+        // probably PropTypes from 'prop-types' package.
+        propChain[0].name = 'PropTypes';
+    }
     // look in each dictionary
     for(var i = 0; i < dictionaries.length; i++) {
         var dict = dictionaries[i];
