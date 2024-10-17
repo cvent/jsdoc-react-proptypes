@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "app-module-path": "^2.0.0",
-    "autoprefixer": "^6.5.2",
+    "autoprefixer": "^6.7.7",
     "ava": "^0.16.0",
     "babel-cli": "^6.5.0",
     "babel-core": "^6.5.0",
