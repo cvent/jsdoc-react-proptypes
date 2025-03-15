@@ -63,7 +63,7 @@
   },
   "main": "lib/index.js",
   "engines": {
-    "npm": "^3.0.0"
+    "npm": "^3.10.10"
   },
   "ava": {
     "require": "babel-register",
